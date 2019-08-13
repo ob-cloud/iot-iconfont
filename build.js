@@ -20,6 +20,8 @@ function dataCleaning () {
   const $ = cheerio.load(data)
   $('title').text(`${ICONNAME} Demo`)
   $('[type="image/x-icon"]').remove()
+  $('.logo').attr('style', 'height: initial;')
+  $('.logo > a').attr('style', 'font-size: 120px;')
   $('.logo > a').attr('href', '#').attr('target', '_self').text(ICONNAME)
   $('.nav-more').remove()
   data = $.html()
