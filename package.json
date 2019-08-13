@@ -1,0 +1,26 @@
+{
+  "name": "obicon-iot",
+  "version": "1.0.0",
+  "description": "iconfont of iot",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ob-cloud/iot-iconfont.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ob-cloud/iot-iconfont/issues"
+  },
+  "homepage": "https://github.com/ob-cloud/iot-iconfont#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
