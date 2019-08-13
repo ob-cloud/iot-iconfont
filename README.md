@@ -1,2 +1,2 @@
 # iot-iconfont
-font icon of iot
+iconfont of iot
