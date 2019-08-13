@@ -43,7 +43,7 @@ function proccessor () {
     fs.copyFileSync(path.join('source', file), path.join('docs', file))
   })
   fs.readdirSync('source').forEach(file => {
-    if (['.css', '.eot', '.svg', '.ttf', '.woff', '.woff2'].includes(file.slice(file.indexOf('.')))) {
+    if (['.css', '.eot', '.svg', '.ttf', '.woff', '.woff2'].includes(file.slice(file.indexOf('.'))) && file.indexOf('demo') === -1) {
       fs.copyFileSync(path.join('source', file), path.join('src', file))
     }
   })
