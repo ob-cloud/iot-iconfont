@@ -1,9 +1,12 @@
-echo 'update files from repo'
+echo '***********************'
+echo 'update files from repo....'
 echo ''
 git pull --tags origin master
 
 echo ''
-echo 'push  files to  repo'
+echo '***********************'
+echo 'push  files to  repo...'
+echo ''
 ggit init
 git add -A
 git commit -m 'deploy'
